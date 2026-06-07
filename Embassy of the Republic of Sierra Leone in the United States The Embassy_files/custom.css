@@ -1,0 +1,236 @@
+:root {
+}
+
+
+.header-style-logo-text {
+  --ss-header-background-color: #ffffff;
+  --ss-header-background-alpha: calc(100% * 1.0);
+}
+
+.header-style-logo-text .branding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.header-style-logo-text .logo {
+  width: 34.23597678916828%;
+}
+
+.header-style-logo-text h1 {
+  color: #000000;
+    font-family: 'Encode Sans', sans-serif;
+  font-size: 25px;
+}
+
+.header-style-logo-text h2 {
+  color: #000000;
+    font-family: 'Encode Sans', sans-serif;
+  font-size: 30px;
+}
+
+
+.primary-navigation,
+.primary-navigation .page-listing a div,
+.primary-navigation .page-listing ul,
+.location-quick-links {
+  background-color: #454545;
+}
+
+  /* Duplicated in _primary_nav.scss */
+  /* @media (min-width: $desktop-breakpoint - 1) { */
+  @media (max-width: 967px) {
+    .primary-navigation .page-listing {
+      background-color: #454545;
+    }
+  }
+
+  .primary-navigation .menu-toggle {
+    background-color: rgba(69, 69, 69, 0.9);
+  }
+
+  .primary-navigation .page-listing li,
+  .location-quick-links a {
+    border-color: #ffffff;
+  }
+
+    /* Duplicated in _primary_nav.scss */
+    /* @media (min-width: $desktop-breakpoint - 1) { */
+    @media (max-width: 967px) {
+      .primary-navigation .page-listing > li {
+        border-color: rgba(255, 255, 255, 0.8);
+      }
+    }
+
+  .primary-navigation a,
+  .primary-navigation .arrow,
+  .location-quick-links a {
+    color: #ffffff;
+  }
+
+    .primary-navigation a div:hover {
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+
+    .primary-navigation a.active div {
+      background: #ffffff;
+      color: #454545;
+    }
+
+    .primary-navigation .page-listing ul ul {
+      background: #ffffff;
+    }
+
+      .primary-navigation .page-listing ul li {
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+
+  /* @media (min-width: $desktop-breakpoint) { */
+  @media (min-width: 968px) {
+    .layout-one_column_wide_nav_in_header .primary-navigation a div {
+      color: #454545;
+    }
+
+    .layout-one_column_wide_nav_in_header .primary-navigation .page-listing ul {
+      background-color: #ffffff;
+    }
+
+    .layout-one_column_wide_nav_in_header .primary-navigation .page-listing ul li {
+      border-color: rgba(69, 69, 69, 0.5);
+    }
+
+    .layout-one_column_wide_nav_in_header .primary-navigation a div:hover {
+      border-color: #454545;
+    }
+  }
+
+.site-search--overlay {
+  background: rgba(69, 69, 69, 0.8) !important;
+}
+
+.site-search--overlay input[type="text"],
+.site-search--overlay form button,
+.site-search--overlay .site-search:after {
+  color: #ffffff;
+}
+
+.site-search--overlay input[type="text"] {
+  border-bottom-color: rgba(255, 255, 255, 0.8);
+}
+
+.site-search--overlay input[type="text"]::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 1;
+}
+
+
+.site-container {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-navigation,
+.location-quick-links {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.primary-navigation .page-listing li {
+  font-size: 16px;
+}
+
+.post--title,
+.post-column_set .column--title,
+.post-gallery .gallery-photo--title,
+.post-menu .item--name,
+.post-pricing_table .plan--title,
+.location-title,
+.footer-container .footer-heading,
+.footer-container .location_details .menu {
+    font-family: 'Baloo Da 2', sans-serif;
+}
+
+
+.post-button {
+
+    border-style: none;
+
+  border-radius: 29px;
+
+    box-shadow: 0px 4px 12px 1.28px rgba(0, 0, 0, 0.3);
+
+}
+
+
+body {
+  background-color: #f5f5f5;
+}
+
+body:before {
+    background-image: none;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Footer */
+.footer-container {
+  --ss-footer-navigation-color: #ffffff;
+
+  background: #3db0a3;
+  background: rgba(61, 176, 163, 0.89);
+  color: #ffffff;
+}
+
+/* Headings and location information/details links */
+.location-title,
+.footer-container .footer-heading {
+  color: #ffffff;
+}
+
+.footer-container nav ul ul {
+  background-color: #3db0a3;
+}
+
+/* Location email address links */
+.footer-container div.locations a {
+  color: #ffffff;
+}
+
+.footer-container .location__icon {
+  color: #ffffff;
+}
+
+/* Copyright */
+.main-container div.copyright {
+  color: #ffffff;
+}
+
+.main-container div.copyright a {
+  color: #ffffff;
+}
+
+.main-container .connect a {
+  background-color: #ffffff;
+}
+
+.main-container .connect .fab {
+  color: #3db0a3;
+}
+
+
+/*
+     FILE ARCHIVED ON 03:25:13 Sep 08, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:15:52 Jun 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.953
+  load_resource: 62.079
+  PetaboxLoader3.resolve: 51.096
+  PetaboxLoader3.datanode: 8.791
+*/
